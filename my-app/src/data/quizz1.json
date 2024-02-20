@@ -1,0 +1,31 @@
+{
+    "Title" : "Quizz1",
+    "nb_question" : 3,
+    "questions" : [
+        {
+            "question" : "Quelle est la capitale de la France ?",
+            "type": "MCQ",
+            "reponses" : [
+                "Paris",
+                "Londres",
+                "Berlin",
+                "Madrid"
+            ],
+            "reponse" : "Paris"
+        },
+        {
+            "question" : "Madrid est la capitale de l'Espagne ?",
+            "type": "Boolean",
+            "reponses" : [
+                "True",
+                "False"
+            ],
+            "reponse" : "True"
+        },
+        {
+            "question" : "Quelle est la capitale de l'Allemagne ?",
+            "type" : "text",
+            "reponse" : "Berlin"
+        }
+    ]
+}

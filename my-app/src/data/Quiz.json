@@ -1,0 +1,64 @@
+{
+    "quizzes": [
+      {
+        "Title": "Quizz1",
+        "nb_question": 3,
+        "questions": [
+          {
+            "question": "Quelle est la capitale de la France ?",
+            "type": "MCQ",
+            "reponses": ["Paris", "Londres", "Berlin", "Madrid"],
+            "reponse": "Paris"
+          },
+          {
+            "question": "Madrid est la capitale de l'Espagne ?",
+            "type": "Boolean",
+            "reponses": ["True", "False"],
+            "reponse": "True"
+          },
+          {
+            "question": "Quelle est la capitale de l'Allemagne ?",
+            "type": "text",
+            "reponse": "Berlin"
+          }
+        ]
+      },
+      {
+        "Title": "Quizz2",
+        "nb_question": 2,
+        "questions": [
+          {
+            "question": "Quel est le plus long fleuve du monde ?",
+            "type": "MCQ",
+            "reponses": ["Nil", "Amazone", "Yangtsé", "Mississippi"],
+            "reponse": "Amazone"
+          },
+          {
+            "question": "La lumière du soleil met combien de temps pour atteindre la Terre ?",
+            "type": "MCQ",
+            "reponses": ["8 minutes", "8 secondes", "1 heure", "24 heures"],
+            "reponse": "8 minutes"
+          }
+        ]
+      },
+      {
+        "Title": "Quizz3",
+        "nb_question": 2,
+        "questions": [
+          {
+            "question": "Qui a écrit '1984' ?",
+            "type": "MCQ",
+            "reponses": ["George Orwell", "Aldous Huxley", "Stephen King", "J.K. Rowling"],
+            "reponse": "George Orwell"
+          },
+          {
+            "question": "Le C++ est un langage de programmation créé par ?",
+            "type": "MCQ",
+            "reponses": ["Bjarne Stroustrup", "Dennis Ritchie", "James Gosling", "Guido van Rossum"],
+            "reponse": "Bjarne Stroustrup"
+          }
+        ]
+      }
+    ]
+  }
+  

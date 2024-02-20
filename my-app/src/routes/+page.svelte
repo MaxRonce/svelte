@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Application de quiz" />
 </svelte:head>
 
 <section>
@@ -16,10 +16,12 @@
 			</picture>
 		</span>
 
-		Prêt à commencer ?
+		<p id="ready" >
+			Prêt à commencer ?
+		</p>
 	</h1>
 
-	<Button href="/quiz" variant="raised">Commencer</Button>
+	<Button href="/quizlist" variant="raised">Commencer</Button>
 </section>
 
 <style>
@@ -29,6 +31,10 @@
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
+	}
+
+	#ready{
+		color : #ff3e00;
 	}
 
 	h1 {
