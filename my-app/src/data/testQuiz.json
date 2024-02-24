@@ -1,0 +1,41 @@
+{
+    "Title" : "Quizz9",
+    "nb_question" : 4,
+    "questions" : [
+        {
+            "question" : "Quelle est la capitale de Mexique ?",
+            "reponses" : [
+                "Paris",
+                "Mexico City",
+                "Berlin",
+                "Madrid"
+            ],
+            "bonne_reponse" : "Mexico City"
+        },
+        {
+            "question" : "Quelle est la capitale des Etats Unis ?",
+            "reponses" : [
+                "Washington",
+                "Londres",
+                "Berlin",
+                "Madrid"
+            ],
+            "bonne_reponse" : "Washington"
+        },
+        {
+            "question" : "Londres est la capitale de l'Angleterre ?",
+            "type": "Boolean",
+            "reponses" : [
+                "True",
+                "False"
+            ],
+            "reponse" : "True"
+        },
+        {
+            "question" : "Quelle est la capitale de l'Espagne ?",
+            "type" : "text",
+            "reponse" : "Madrid"
+        }
+        
+    ]
+}
