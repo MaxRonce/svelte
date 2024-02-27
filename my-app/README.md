@@ -1,38 +1,34 @@
-# create-svelte
+# Projet Svelte Cours
+## Introduction
+Ce dépôt contient le code source d'une app Web.L'application Web est conçue pour faire des quiz. Elle utilise le framework Svelte pour le développement côté client.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Développeurs
+- Bryan Blin--Dorard
+- Maxime Ronceray
+- Enrique Ortiz
 
-## Creating a project
+## Fonctionnalités
+L'application Web possède les fonctionnalités suivantes :
+- **Système de Connexion** : L'utilisateur peut s'authentifier pour accéder aux fonctionnalités des quiz. L'username est **user1** et le mot de passe est **mdp1**
+- **Jeu** : Les utilisateurs peuvent jouer aux quiz, répondre aux questions et voir leurs résultats.
+- **Importation & Exportation** : Le site web prend en charge l'importation et l'exportation de données de quiz.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Dépendances/Packages
+- **@smui/button**
+- **@sveltejs/adapter-auto**
+- **@sveltejs/kit**
+- **@sveltejs/vite-plugin-svelte**
+- **smui-theme**
+- **svelte**
+- **vite**
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Installation
+Pour configurer le projet localement, suivez ces étapes :
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Clonez le dépôt sur votre machine locale.
+2. Accédez au répertoire du projet.
+3. Exécutez `npm install` pour installer les dépendances nécessaires.
+4. Après l'installation, lancez `npm run dev` pour démarrer le serveur de développement.
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Utilisation
+Une fois le serveur de développement lancé, accédez à l'application Web via l'URL fournie.
